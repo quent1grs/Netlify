@@ -1,0 +1,95 @@
+/* Global Styles */
+body {
+    background-color: #000; /* Fond noir */
+    color: #fff; /* Texte blanc */
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+p {
+    color: #d3d3d3; /* Gris clair pour le texte */
+}
+
+/* Liens et boutons */
+a {
+    color: #4f46e5; /* Indigo pour les liens */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6366f1; /* Effet hover plus clair */
+}
+
+/* Containers */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Layout */
+.grid {
+    display: grid;
+    gap: 20px;
+}
+
+.grid-cols-1 {
+    grid-template-columns: 1fr;
+}
+
+.md\:grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* Text */
+.text-center {
+    text-align: center;
+}
+
+.text-indigo-400 {
+    color: #818cf8; /* Indigo clair pour les titres */
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+/* Spacing */
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mb-16 {
+    margin-bottom: 4rem;
+}
+
+.py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
